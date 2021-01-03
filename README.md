@@ -12,20 +12,14 @@ The Employee Tracker is a command-line-input application run inNode.js command l
 This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link.
 <<<<<<< HEAD
    * [GitHub Respository](https://github.com/sanjay1626/Employee-Tracker.git) 
-=======
-   * [GitHub Respository]() 
->>>>>>> 333a04ab77325f93a123524d87dc7e3f2d38a7dc
   
 
 # Installation
 To install this application, you will need a text editor. I recommend Visual Studio Code.
 Install the required packages via "npm install" in the root directory (location of packages.json)
   
-
 The application itself can be invoked with `npm start`.
 
-
-<<<<<<< HEAD
 ## Usage
 + Program is run by executing "npm start" The user is brought to a main menu with a list of commands that can be execute. Some options have further choices and prompts to interact with the system.
 ![Screenshotdisplay](./assets/screenshot1.jpg)
@@ -36,33 +30,7 @@ The application itself can be invoked with `npm start`.
 
 # Preview
 ![Application Preview](./assets/demo.gif)
-=======
-# Usage
 
-Program is run by executing "npm start" The user is brought to a main menu with a list of commands that can be execute. Some options have further choices and prompts to interact with the system.
-
-![Screenshotdisplay](./display1.jpg)
-
-The engineer option requires the user to input the name, ID, email, and github username.
-
-The intern option requires the user to input the name, ID, email, and school.
-
-The manager option requires the user to input the name, ID, email, and office number.
-
-Once all the information is collected, the user chooses to create another employee or not by selection "Yes" or "No".
-
-If they choose "Yes", the employee type question appears and they go through the same process.
-
-If they choose "No", the html page is generated with all the employees created.
-
-![Screenshotdisplay](./display2.jpg)
-
-Below is the HTML Team Profile display
-
-![Screenshotdisplay](./display3.jpg)
-
-
->>>>>>> 333a04ab77325f93a123524d87dc7e3f2d38a7dc
 
 ## License
 
@@ -70,7 +38,7 @@ MonkeyBrain Inc.
 
 ---
 # Languages
-<<<<<<< HEAD
+
   * Node.js
   * MySQL
   
@@ -79,7 +47,7 @@ MonkeyBrain Inc.
   * Node.js
   * ES6
   * OOP
->>>>>>> 333a04ab77325f93a123524d87dc7e3f2d38a7dc
+
 
 ## Questions?
 
