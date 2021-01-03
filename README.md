@@ -10,7 +10,7 @@ The Employee Tracker is a command-line-input application run inNode.js command l
 
 # Getting Started
 This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link.
-<<<<<<< HEAD
+
    * [GitHub Respository](https://github.com/sanjay1626/Employee-Tracker.git) 
   
 
