@@ -31,8 +31,8 @@ function startPrompt() {
             choices: [
                 "View All Employees?",
                 "View All Employee's By Roles?",
-                "View all Emplyees By Deparments",
-                "Update Employee",
+                "View all Employees By Departments",
+                "Update Employee Role",
                 "Add Employee?",
                 "Add Role?",
                 "Add Department?",
@@ -48,7 +48,7 @@ function startPrompt() {
             case "View All Employee's By Roles?":
                 viewAllRoles();
                 break;
-            case "View all Employees By Deparments":
+            case "View all Employees By Departments":
                 viewAllDepartments();
                 break;
 
@@ -56,7 +56,7 @@ function startPrompt() {
                 addEmployee();
                 break;
 
-            case "Update Employee":
+            case "Update Employee Role":
                 updateEmployee();
                 break;
 
@@ -93,12 +93,12 @@ function viewAllRoles() {
 }
 //============= View All Employees By Departments ==========================//
 function viewAllDepartments() {
-    connection.query("SELECT employee.first_name, employee.last_name, department.name AS Department FROM employee JOIN role ON employee.role_id = role.id JOIN department ON role.department_id = department.id ORDER BY employee.id;",
-        function (err, res) {
-            if (err) throw err
-            console.table(res)
-            startPrompt()
-        })
+    let query = connection.query("SELECT employee.first_name, employee.last_name, department.name AS Department FROM employee JOIN role ON employee.role_id = role.id JOIN department ON role.department_id = department.id ORDER BY employee.id;", 
+    function(err, res) {
+      if (err) throw err
+      console.table(res)
+      startPrompt()
+    })
 }
 
 //================= Select Role Quieries Role Title for Add Employee Prompt ===========//
@@ -175,7 +175,7 @@ function updateEmployee() {
     connection.query("SELECT employee.last_name, role.title FROM employee JOIN role ON employee.role_id = role.id;", function (err, res) {
         // console.log(res)
         if (err) throw err
-        console.log(res)
+        //console.log(res)
         inquirer.prompt([
             {
                 name: "lastName",
