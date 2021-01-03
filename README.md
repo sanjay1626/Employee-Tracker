@@ -40,13 +40,12 @@ MonkeyBrain Inc.
 # Languages
 
   * Node.js
-  * MySQL
+  * SQL
   
 =======
-  * JavaScript
-  * Node.js
-  * ES6
-  * OOP
+  * Inqurier
+  * mySQL
+  
 
 
 ## Questions?
